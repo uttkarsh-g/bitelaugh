@@ -1,605 +1,331 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="shortcut icon"
-      href="assets/logo/favicon.ico"
-      type="image/x-icon"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <title>Bite Laugh - Menu</title>
-  </head>
-  <body>
-    <div class="menu-main bg-white relative">
-      <nav
-        class="w-full h-20 fixed top-0 z-50 bg-white border-b-2 border-b-blue"
-      >
-        <div
-          class="main-area-nav max-w-[1280px] mx-auto h-full flex items-center justify-between p-5"
-        >
-          <div class="logo h-full object-cover">
-            <a href="index.html"
-              ><img src="assets/logo/logo.webp" alt="" class="h-full"
-            /></a>
-          </div>
-          <div class="nav-link flex items-center gap-8 sd:hidden nd:hidden">
-            <a href="index.html" class="font-head text-black hover:text-black"
-              >HOME</a
-            >
-            <a
-              href="index.html-#two"
-              class="font-head text-grey hover:text-black"
-              >ABOUT</a
-            >
-            <a
-              href="index.html#three"
-              class="font-head text-grey hover:text-black"
-              >MENU</a
-            >
-            <a href="contact.html" class="font-head text-grey hover:text-black"
-              >CONTACT</a
-            >
-          </div>
-          <i
-            class="ri-menu-3-line text-3xl hidden sd:block nd:block op relative z-50"
-          ></i>
-          <i class="ri-close-line text-3xl hidden cl relative z-50"></i>
-        </div>
-      </nav>
-
-      <div
-        class="main-menu h-fit lds:h-fit max-w-[1280px] mx-auto pt-20 pb-5 mb-20"
-      >
-        <div class="head">
-          <h1 class="font-head text-5xl">OUR MENU</h1>
-        </div>
-        <div class="main-head h-fit w-full relative mt-10">
-          <div class="heading flex justify-center gap-2 px-1">
-            <button
-              class="mc border border-grey rounded-full px-2 py-1 hover:bg-black hover:text-white"
-            >
-              Main Course
-            </button>
-            <button
-              class="sld border border-grey rounded-full px-2 py-1 hover:bg-black hover:text-white"
-            >
-              Salads
-            </button>
-            <button
-              class="de border border-grey rounded-full px-2 py-1 hover:bg-black hover:text-white"
-            >
-              Desserts
-            </button>
-            <button
-              class="be border border-grey rounded-full px-2 py-1 hover:bg-black hover:text-white"
-            >
-              Beverages
-            </button>
-          </div>
-          <div class="food-bo relative">
-            <div
-              class="main-course grid grid-cols-1 grid-rows-1 gap-3 place-items-center mt-20 nd:grid-cols-2 nd:grid-rows-3 st:grid-cols-2 st:grid-rows-3 lt:grid-cols-3 lt:grid-row-3 ld:grid-cols-3 ld:grid-row-3 ls:grid-cols-3 ls:grid-row-3"
-            >
-              <div
-                class="card h-[300px] w-[250px] nd:w-[95%] lt:w-[95%] ld:w-[95%] ls:w-[95%]"
-              >
-                <div class="card-img h-[80%]">
-                  <img
-                    src="assets/mc/m-mc-1.jpg"
-                    alt="Paneer Makhani"
-                    class="h-full w-full object-cover"
-                  />
-                </div>
-                <div
-                  class="card-body h-[20%] flex justify-evenly items-center bg-black"
-                >
-                  <p class="text-white">Paneer Makhani</p>
-                  <p class="text-white">$40</p>
-                </div>
-              </div>
-              <div
-                class="card h-[300px] w-[250px] nd:w-[95%] lt:w-[95%] ld:w-[95%] ls:w-[95%]"
-              >
-                <div class="card-img h-[80%]">
-                  <img
-                    src="assets/mc/m-mc-2.jpg"
-                    alt="Achari Bhindi"
-                    class="h-full w-full object-cover"
-                  />
-                </div>
-                <div
-                  class="card-body h-[20%] flex justify-evenly items-center bg-black"
-                >
-                  <p class="text-white">Achari Bhindi</p>
-                  <p class="text-white">$40</p>
-                </div>
-              </div>
-              <div
-                class="card h-[300px] w-[250px] nd:w-[95%] lt:w-[95%] ld:w-[95%] ls:w-[95%]"
-              >
-                <div class="card-img h-[80%]">
-                  <img
-                    src="assets/mc/m-mc-3.jpg"
-                    alt="Cashew Curry"
-                    class="h-full w-full object-cover"
-                  />
-                </div>
-                <div
-                  class="card-body h-[20%] flex justify-evenly items-center bg-black"
-                >
-                  <p class="text-white">Cashew Curry</p>
-                  <p class="text-white">$40</p>
-                </div>
-              </div>
-              <div
-                class="card h-[300px] w-[250px] nd:w-[95%] lt:w-[95%] ld:w-[95%] ls:w-[95%]"
-              >
-                <div class="card-img h-[80%]">
-                  <img
-                    src="assets/mc/m-mc-4.jpg"
-                    alt="Paneer Eggplant Roll-Ups"
-                    class="h-full w-full object-cover"
-                  />
-                </div>
-                <div
-                  class="card-body h-[20%] flex justify-evenly items-center bg-black"
-                >
-                  <p class="text-white">Paneer Eggplant Roll-Ups</p>
-                  <p class="text-white">$40</p>
-                </div>
-              </div>
-              <div
-                class="card h-[300px] w-[250px] nd:w-[95%] lt:w-[95%] ld:w-[95%] ls:w-[95%]"
-              >
-                <div class="card-img h-[80%]">
-                  <img
-                    src="assets/mc/m-mc-5.jpg"
-                    alt="Vegetable Cheese Omelette"
-                    class="h-full w-full object-cover"
-                  />
-                </div>
-                <div
-                  class="card-body h-[20%] flex justify-evenly items-center bg-black"
-                >
-                  <p class="text-white">Vegetable Cheese Omelette</p>
-                  <p class="text-white">$40</p>
-                </div>
-              </div>
-              <div
-                class="card h-[300px] w-[250px] nd:w-[95%] lt:w-[95%] ld:w-[95%] ls:w-[95%]"
-              >
-                <div class="card-img h-[80%]">
-                  <img
-                    src="assets/mc/m-mc-6.jpg"
-                    alt="Instant Pot Noodles"
-                    class="h-full w-full object-cover"
-                  />
-                </div>
-                <div
-                  class="card-body h-[20%] flex justify-evenly items-center bg-black"
-                >
-                  <p class="text-white">Instant Pot Noodles</p>
-                  <p class="text-white">$15</p>
-                </div>
-              </div>
-            </div>
-
-            <div
-              class="sald grid-cols-1 grid-rows-1 gap-3 place-items-center mt-20 nd:grid-cols-2 nd:grid-rows-3 st:grid-cols-2 st:grid-rows-3 lt:grid-cols-3 lt:grid-row-3 ld:grid-cols-3 ld:grid-row-3 ls:grid-cols-3 ls:grid-row-3 hidden"
-            >
-              <div
-                class="card h-[300px] w-[250px] nd:w-[95%] lt:w-[95%] ld:w-[95%] ls:w-[95%]"
-              >
-                <div class="card-img h-[80%]">
-                  <img
-                    src="assets/sld/m-sld-1.jpg"
-                    alt="Lentil Tabbouleh Salad"
-                    class="h-full w-full object-cover"
-                  />
-                </div>
-                <div
-                  class="card-body h-[20%] flex justify-evenly items-center bg-black"
-                >
-                  <p class="text-white">Lentil Tabbouleh Salad</p>
-                  <p class="text-white">$40</p>
-                </div>
-              </div>
-              <div
-                class="card h-[300px] w-[250px] nd:w-[95%] lt:w-[95%] ld:w-[95%] ls:w-[95%]"
-              >
-                <div class="card-img h-[80%]">
-                  <img
-                    src="assets/sld/m-sld-2.jpg"
-                    alt="Chickpea Salad"
-                    class="h-full w-full object-cover"
-                  />
-                </div>
-                <div
-                  class="card-body h-[20%] flex justify-evenly items-center bg-black"
-                >
-                  <p class="text-white">Chickpea Salad</p>
-                  <p class="text-white">$40</p>
-                </div>
-              </div>
-              <div
-                class="card h-[300px] w-[250px] nd:w-[95%] lt:w-[95%] ld:w-[95%] ls:w-[95%]"
-              >
-                <div class="card-img h-[80%]">
-                  <img
-                    src="assets/sld/m-sld-3.jpg"
-                    alt="Pesto Pasta Salad"
-                    class="h-full w-full object-cover"
-                  />
-                </div>
-                <div
-                  class="card-body h-[20%] flex justify-evenly items-center bg-black"
-                >
-                  <p class="text-white">Pesto Pasta Salad</p>
-                  <p class="text-white">$40</p>
-                </div>
-              </div>
-              <div
-                class="card h-[300px] w-[250px] nd:w-[95%] lt:w-[95%] ld:w-[95%] ls:w-[95%]"
-              >
-                <div class="card-img h-[80%]">
-                  <img
-                    src="assets/sld/m-sld-4.jpg"
-                    alt="Quinoa Kale Corn Salad"
-                    class="h-full w-full object-cover"
-                  />
-                </div>
-                <div
-                  class="card-body h-[20%] flex justify-evenly items-center bg-black"
-                >
-                  <p class="text-white">Quinoa Kale Corn Salad</p>
-                  <p class="text-white">$40</p>
-                </div>
-              </div>
-              <div
-                class="card h-[300px] w-[250px] nd:w-[95%] lt:w-[95%] ld:w-[95%] ls:w-[95%]"
-              >
-                <div class="card-img h-[80%]">
-                  <img
-                    src="assets/sld/m-sld-5.jpg"
-                    alt="Black Bean & Corn Salad"
-                    class="h-full w-full object-cover"
-                  />
-                </div>
-                <div
-                  class="card-body h-[20%] flex justify-evenly items-center bg-black"
-                >
-                  <p class="text-white">Black Bean & Corn Salad</p>
-                  <p class="text-white">$40</p>
-                </div>
-              </div>
-              <div
-                class="card h-[300px] w-[250px] nd:w-[95%] lt:w-[95%] ld:w-[95%] ls:w-[95%]"
-              >
-                <div class="card-img h-[80%]">
-                  <img
-                    src="assets/sld/m-sld-6.jpg"
-                    alt="Papaya Mango Salad"
-                    class="h-full w-full object-cover"
-                  />
-                </div>
-                <div
-                  class="card-body h-[20%] flex justify-evenly items-center bg-black"
-                >
-                  <p class="text-white">Papaya Mango Salad</p>
-                  <p class="text-white">$15</p>
-                </div>
-              </div>
-            </div>
-
-            <div
-              class="dessert grid-cols-1 grid-rows-1 gap-3 place-items-center mt-20 nd:grid-cols-2 nd:grid-rows-3 st:grid-cols-2 st:grid-rows-3 lt:grid-cols-3 lt:grid-row-3 ld:grid-cols-3 ld:grid-row-3 ls:grid-cols-3 ls:grid-row-3 hidden"
-            >
-              <div
-                class="card h-[300px] w-[250px] nd:w-[95%] lt:w-[95%] ld:w-[95%] ls:w-[95%]"
-              >
-                <div class="card-img h-[80%]">
-                  <img
-                    src="assets/des/m-d-1.jpg"
-                    alt="Biscoff Pudding Jars"
-                    class="h-full w-full object-cover"
-                  />
-                </div>
-                <div
-                  class="card-body h-[20%] flex justify-evenly items-center bg-black"
-                >
-                  <p class="text-white">Biscoff Pudding Jars</p>
-                  <p class="text-white">$40</p>
-                </div>
-              </div>
-              <div
-                class="card h-[300px] w-[250px] nd:w-[95%] lt:w-[95%] ld:w-[95%] ls:w-[95%]"
-              >
-                <div class="card-img h-[80%]">
-                  <img
-                    src="assets/des/m-d-2.jpg"
-                    alt="Fruit Custard Icebox Cake"
-                    class="h-full w-full object-cover"
-                  />
-                </div>
-                <div
-                  class="card-body h-[20%] flex justify-evenly items-center bg-black"
-                >
-                  <p class="text-white">Fruit Custard Icebox Cake</p>
-                  <p class="text-white">$40</p>
-                </div>
-              </div>
-              <div
-                class="card h-[300px] w-[250px] nd:w-[95%] lt:w-[95%] ld:w-[95%] ls:w-[95%]"
-              >
-                <div class="card-img h-[80%]">
-                  <img
-                    src="assets/des/m-d-3.jpg"
-                    alt="Gajar Halwa"
-                    class="h-full w-full object-cover"
-                  />
-                </div>
-                <div
-                  class="card-body h-[20%] flex justify-evenly items-center bg-black"
-                >
-                  <p class="text-white">Gajar Halwa</p>
-                  <p class="text-white">$40</p>
-                </div>
-              </div>
-              <div
-                class="card h-[300px] w-[250px] nd:w-[95%] lt:w-[95%] ld:w-[95%] ls:w-[95%]"
-              >
-                <div class="card-img h-[80%]">
-                  <img
-                    src="assets/des/m-d-4.jpg"
-                    alt="Eggless Date Walnut Cake"
-                    class="h-full w-full object-cover"
-                  />
-                </div>
-                <div
-                  class="card-body h-[20%] flex justify-evenly items-center bg-black"
-                >
-                  <p class="text-white">Eggless Date Walnut Cake</p>
-                  <p class="text-white">$40</p>
-                </div>
-              </div>
-              <div
-                class="card h-[300px] w-[250px] nd:w-[95%] lt:w-[95%] ld:w-[95%] ls:w-[95%]"
-              >
-                <div class="card-img h-[80%]">
-                  <img
-                    src="assets/des/m-d-5.jpg"
-                    alt="Biscoff Cheesecake"
-                    class="h-full w-full object-cover"
-                  />
-                </div>
-                <div
-                  class="card-body h-[20%] flex justify-evenly items-center bg-black"
-                >
-                  <p class="text-white">Biscoff Cheesecake</p>
-                  <p class="text-white">$40</p>
-                </div>
-              </div>
-              <div
-                class="card h-[300px] w-[250px] nd:w-[95%] lt:w-[95%] ld:w-[95%] ls:w-[95%]"
-              >
-                <div class="card-img h-[80%]">
-                  <img
-                    src="assets/des/m-d-6.jpg"
-                    alt="Rose Kulfi"
-                    class="h-full w-full object-cover"
-                  />
-                </div>
-                <div
-                  class="card-body h-[20%] flex justify-evenly items-center bg-black"
-                >
-                  <p class="text-white">Rose Kulfi</p>
-                  <p class="text-white">$15</p>
-                </div>
-              </div>
-            </div>
-
-            <div
-              class="beve grid-cols-1 grid-rows-1 gap-3 place-items-center mt-20 nd:grid-cols-2 nd:grid-rows-3 st:grid-cols-2 st:grid-rows-3 lt:grid-cols-3 lt:grid-row-3 ld:grid-cols-3 ld:grid-row-3 ls:grid-cols-3 ls:grid-row-3 hidden"
-            >
-              <div
-                class="card h-[300px] w-[250px] nd:w-[95%] lt:w-[95%] ld:w-[95%] ls:w-[95%]"
-              >
-                <div class="card-img h-[80%]">
-                  <img
-                    src="assets/bev/m-b-1.jpg"
-                    alt="Mango Lassi"
-                    class="h-full w-full object-cover"
-                  />
-                </div>
-                <div
-                  class="card-body h-[20%] flex justify-evenly items-center bg-black"
-                >
-                  <p class="text-white">Mango Lassi</p>
-                  <p class="text-white">$40</p>
-                </div>
-              </div>
-              <div
-                class="card h-[300px] w-[250px] nd:w-[95%] lt:w-[95%] ld:w-[95%] ls:w-[95%]"
-              >
-                <div class="card-img h-[80%]">
-                  <img
-                    src="assets/bev/m-b-2.jpg"
-                    alt=""
-                    class="h-full w-full object-cover"
-                  />
-                </div>
-                <div
-                  class="card-body h-[20%] flex justify-evenly items-center bg-black"
-                >
-                  <p class="text-white">Moong Dal Mini Samosa</p>
-                  <p class="text-white">$40</p>
-                </div>
-              </div>
-              <div
-                class="card h-[300px] w-[250px] nd:w-[95%] lt:w-[95%] ld:w-[95%] ls:w-[95%]"
-              >
-                <div class="card-img h-[80%]">
-                  <img
-                    src="assets/bev/m-b-3.webp"
-                    alt="Dry Fruits Milkshake"
-                    class="h-full w-full object-cover"
-                  />
-                </div>
-                <div
-                  class="card-body h-[20%] flex justify-evenly items-center bg-black"
-                >
-                  <p class="text-white">Dry Fruits Milkshake</p>
-                  <p class="text-white">$40</p>
-                </div>
-              </div>
-              <div
-                class="card h-[300px] w-[250px] nd:w-[95%] lt:w-[95%] ld:w-[95%] ls:w-[95%]"
-              >
-                <div class="card-img h-[80%]">
-                  <img
-                    src="assets/bev/m-b-4.webp"
-                    alt="Virgin Mojito"
-                    class="h-full w-full object-cover"
-                  />
-                </div>
-                <div
-                  class="card-body h-[20%] flex justify-evenly items-center bg-black"
-                >
-                  <p class="text-white">Virgin Mojito</p>
-                  <p class="text-white">$40</p>
-                </div>
-              </div>
-              <div
-                class="card h-[300px] w-[250px] nd:w-[95%] lt:w-[95%] ld:w-[95%] ls:w-[95%]"
-              >
-                <div class="card-img h-[80%]">
-                  <img
-                    src="assets/bev/m-b-5.jpg"
-                    alt="Horchata"
-                    class="h-full w-full object-cover"
-                  />
-                </div>
-                <div
-                  class="card-body h-[20%] flex justify-evenly items-center bg-black"
-                >
-                  <p class="text-white">Horchata</p>
-                  <p class="text-white">$40</p>
-                </div>
-              </div>
-              <div
-                class="card h-[300px] w-[250px] nd:w-[95%] lt:w-[95%] ld:w-[95%] ls:w-[95%]"
-              >
-                <div class="card-img h-[80%]">
-                  <img
-                    src="assets/bev/m-b-6.jpg"
-                    alt="Oreo Milkshake"
-                    class="h-full w-full object-cover"
-                  />
-                </div>
-                <div
-                  class="card-body h-[20%] flex justify-evenly items-center bg-black"
-                >
-                  <p class="text-white">Oreo Milkshake</p>
-                  <p class="text-white">$15</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <footer class="w-full h-fit bg-white border-t-2 border-t-blue">
-        <div
-          class="footer-main-area max-w-[1280px] mx-auto h-full flex flex-col st:flex-row lt:flex-row ld:flex-row ls:flex-row ls:h-80 gap-5 p-5 nd:grid nd:grid-rows-2 nd:grid-col-2"
-        >
-          <div class="nav-link h-full w-full ls:w-[30%] nd:col-span-2">
-            <a href="index.html" class="flex justify-center"
-              ><img src="assets/logo/logo.webp" alt="LOGO" class=""
-            /></a>
-            <div class="links flex flex-col w-full text-center gap-5 mt-5">
-              <a href="index.html" class="font-head text-grey hover:text-black"
-                >HOME</a
-              >
-              <a
-                href="contact.html"
-                class="font-head text-grey hover:text-black"
-                >CONTACT</a
-              >
-              <a
-                href="index.html#res"
-                class="font-head text-grey hover:text-black"
-                >RESERVATION</a
-              >
-            </div>
-          </div>
-
-          <div class="social h-full w-full ls:w-[30%] nd:col-span-1">
-            <h1
-              class="font-head text-center text-[7vw] st:text-[3.5vw] lt:text-[3.3vw] ld:text-[3.3vw] ls:text-3xl nd:text-[5vw]"
-            >
-              FOLLOW US
-            </h1>
-            <div class="links w-full gap-5 mt-5 px-5">
-              <div class="fb flex justify-center items-center gap-5">
-                <i class="ri-facebook-line"></i>
-                <a href="#" class="font-head text-black">Facebook</a>
-              </div>
-              <div class="insta flex justify-center items-center gap-5">
-                <i class="ri-instagram-line"></i>
-                <a href="#" class="font-head text-black">Instagram</a>
-              </div>
-              <div class="x flex justify-center items-center gap-5">
-                <i class="ri-twitter-x-line"></i>
-                <a href="#" class="font-head text-black">X</a>
-              </div>
-            </div>
-          </div>
-
-          <div
-            class="info h-full w-full ls:w-[30%] st:border-l-2 st:border-blue lt:border-l-2 lt:border-blue ld:border-l-2 ld:border-blue ls:border-l-2 ls:border-blue nd:col-span-1"
-          >
-            <h1
-              class="font-head text-center text-[7vw] nd:text-[5vw] st:text-[3.5vw] lt:text-[3.3vw] ld:text-[3.3vw] ls:text-3xl"
-            >
-              INFORMATION
-            </h1>
-            <div class="add pt-5 px-5">
-              <h1 class="font-robo">ADDRESS</h1>
-              <address class="font-robo font-light">
-                69 Road , opp. Ceramic Glaze
-              </address>
-            </div>
-            <div class="em pt-5 px-5">
-              <h1 class="font-robo">EMAIL</h1>
-              <p class="font-robo font-light">bitelaugh@laugh.com</p>
-            </div>
-            <div class="add pt-5 px-5">
-              <h1 class="font-robo">TELEPHONE</h1>
-              <p class="font-robo font-light">696969XX,</p>
-              <p class="font-robo font-light">696XX969.</p>
-            </div>
-          </div>
-        </div>
-      </footer>
-    </div>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
-      integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
-      integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-    <script type="module" src="java.js"></script>
-  </body>
+<!doctype html>
+<html lang=en>
+<head>
+<meta charset=UTF-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<link rel="shortcut icon" href=assets/logo/favicon.ico type=image/x-icon>
+<link href=https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css rel=stylesheet>
+<link rel=stylesheet href=style.css>
+<title>Bite Laugh - Menu</title>
+</head>
+<body>
+<div class="menu-main bg-white relative">
+<nav class="w-full h-20 fixed top-0 z-50 bg-white border-b-2 border-b-blue">
+<div class="main-area-nav max-w-[1280px] mx-auto h-full flex items-center justify-between p-5">
+<div class="logo h-full object-cover">
+<a href=index.html><img src=assets/logo/logo.webp alt="" class=h-full></a>
+</div>
+<div class="nav-link flex items-center gap-8 sd:hidden nd:hidden">
+<a href=index.html class="font-head text-black hover:text-black">HOME</a>
+<a href=index.html-#two class="font-head text-grey hover:text-black">ABOUT</a>
+<a href=index.html#three class="font-head text-grey hover:text-black">MENU</a>
+<a href=contact.html class="font-head text-grey hover:text-black">CONTACT</a>
+</div>
+<i class="ri-menu-3-line text-3xl hidden sd:block nd:block op relative z-50"></i>
+<i class="ri-close-line text-3xl hidden cl relative z-50"></i>
+</div>
+</nav>
+<div class="main-menu h-fit lds:h-fit max-w-[1280px] mx-auto pt-20 pb-5 mb-20">
+<div class=head>
+<h1 class="font-head text-5xl">OUR MENU</h1>
+</div>
+<div class="main-head h-fit w-full relative mt-10">
+<div class="heading flex justify-center gap-2 px-1">
+<button class="mc border border-grey rounded-full px-2 py-1 hover:bg-black hover:text-white">
+Main Course
+</button>
+<button class="sld border border-grey rounded-full px-2 py-1 hover:bg-black hover:text-white">
+Salads
+</button>
+<button class="de border border-grey rounded-full px-2 py-1 hover:bg-black hover:text-white">
+Desserts
+</button>
+<button class="be border border-grey rounded-full px-2 py-1 hover:bg-black hover:text-white">
+Beverages
+</button>
+</div>
+<div class="food-bo relative">
+<div class="main-course grid grid-cols-1 grid-rows-1 gap-3 place-items-center mt-20 nd:grid-cols-2 nd:grid-rows-3 st:grid-cols-2 st:grid-rows-3 lt:grid-cols-3 lt:grid-row-3 ld:grid-cols-3 ld:grid-row-3 ls:grid-cols-3 ls:grid-row-3">
+<div class="card h-[300px] w-[250px] nd:w-[95%] lt:w-[95%] ld:w-[95%] ls:w-[95%]">
+<div class="card-img h-[80%]">
+<img src=assets/mc/m-mc-1.jpg alt="Paneer Makhani" class="h-full w-full object-cover">
+</div>
+<div class="card-body h-[20%] flex justify-evenly items-center bg-black">
+<p class=text-white>Paneer Makhani</p>
+<p class=text-white>$40</p>
+</div>
+</div>
+<div class="card h-[300px] w-[250px] nd:w-[95%] lt:w-[95%] ld:w-[95%] ls:w-[95%]">
+<div class="card-img h-[80%]">
+<img src=assets/mc/m-mc-2.jpg alt="Achari Bhindi" class="h-full w-full object-cover">
+</div>
+<div class="card-body h-[20%] flex justify-evenly items-center bg-black">
+<p class=text-white>Achari Bhindi</p>
+<p class=text-white>$40</p>
+</div>
+</div>
+<div class="card h-[300px] w-[250px] nd:w-[95%] lt:w-[95%] ld:w-[95%] ls:w-[95%]">
+<div class="card-img h-[80%]">
+<img src=assets/mc/m-mc-3.jpg alt="Cashew Curry" class="h-full w-full object-cover">
+</div>
+<div class="card-body h-[20%] flex justify-evenly items-center bg-black">
+<p class=text-white>Cashew Curry</p>
+<p class=text-white>$40</p>
+</div>
+</div>
+<div class="card h-[300px] w-[250px] nd:w-[95%] lt:w-[95%] ld:w-[95%] ls:w-[95%]">
+<div class="card-img h-[80%]">
+<img src=assets/mc/m-mc-4.jpg alt="Paneer Eggplant Roll-Ups" class="h-full w-full object-cover">
+</div>
+<div class="card-body h-[20%] flex justify-evenly items-center bg-black">
+<p class=text-white>Paneer Eggplant Roll-Ups</p>
+<p class=text-white>$40</p>
+</div>
+</div>
+<div class="card h-[300px] w-[250px] nd:w-[95%] lt:w-[95%] ld:w-[95%] ls:w-[95%]">
+<div class="card-img h-[80%]">
+<img src=assets/mc/m-mc-5.jpg alt="Vegetable Cheese Omelette" class="h-full w-full object-cover">
+</div>
+<div class="card-body h-[20%] flex justify-evenly items-center bg-black">
+<p class=text-white>Vegetable Cheese Omelette</p>
+<p class=text-white>$40</p>
+</div>
+</div>
+<div class="card h-[300px] w-[250px] nd:w-[95%] lt:w-[95%] ld:w-[95%] ls:w-[95%]">
+<div class="card-img h-[80%]">
+<img src=assets/mc/m-mc-6.jpg alt="Instant Pot Noodles" class="h-full w-full object-cover">
+</div>
+<div class="card-body h-[20%] flex justify-evenly items-center bg-black">
+<p class=text-white>Instant Pot Noodles</p>
+<p class=text-white>$15</p>
+</div>
+</div>
+</div>
+<div class="sald grid-cols-1 grid-rows-1 gap-3 place-items-center mt-20 nd:grid-cols-2 nd:grid-rows-3 st:grid-cols-2 st:grid-rows-3 lt:grid-cols-3 lt:grid-row-3 ld:grid-cols-3 ld:grid-row-3 ls:grid-cols-3 ls:grid-row-3 hidden">
+<div class="card h-[300px] w-[250px] nd:w-[95%] lt:w-[95%] ld:w-[95%] ls:w-[95%]">
+<div class="card-img h-[80%]">
+<img src=assets/sld/m-sld-1.jpg alt="Lentil Tabbouleh Salad" class="h-full w-full object-cover">
+</div>
+<div class="card-body h-[20%] flex justify-evenly items-center bg-black">
+<p class=text-white>Lentil Tabbouleh Salad</p>
+<p class=text-white>$40</p>
+</div>
+</div>
+<div class="card h-[300px] w-[250px] nd:w-[95%] lt:w-[95%] ld:w-[95%] ls:w-[95%]">
+<div class="card-img h-[80%]">
+<img src=assets/sld/m-sld-2.jpg alt="Chickpea Salad" class="h-full w-full object-cover">
+</div>
+<div class="card-body h-[20%] flex justify-evenly items-center bg-black">
+<p class=text-white>Chickpea Salad</p>
+<p class=text-white>$40</p>
+</div>
+</div>
+<div class="card h-[300px] w-[250px] nd:w-[95%] lt:w-[95%] ld:w-[95%] ls:w-[95%]">
+<div class="card-img h-[80%]">
+<img src=assets/sld/m-sld-3.jpg alt="Pesto Pasta Salad" class="h-full w-full object-cover">
+</div>
+<div class="card-body h-[20%] flex justify-evenly items-center bg-black">
+<p class=text-white>Pesto Pasta Salad</p>
+<p class=text-white>$40</p>
+</div>
+</div>
+<div class="card h-[300px] w-[250px] nd:w-[95%] lt:w-[95%] ld:w-[95%] ls:w-[95%]">
+<div class="card-img h-[80%]">
+<img src=assets/sld/m-sld-4.jpg alt="Quinoa Kale Corn Salad" class="h-full w-full object-cover">
+</div>
+<div class="card-body h-[20%] flex justify-evenly items-center bg-black">
+<p class=text-white>Quinoa Kale Corn Salad</p>
+<p class=text-white>$40</p>
+</div>
+</div>
+<div class="card h-[300px] w-[250px] nd:w-[95%] lt:w-[95%] ld:w-[95%] ls:w-[95%]">
+<div class="card-img h-[80%]">
+<img src=assets/sld/m-sld-5.jpg alt="Black Bean & Corn Salad" class="h-full w-full object-cover">
+</div>
+<div class="card-body h-[20%] flex justify-evenly items-center bg-black">
+<p class=text-white>Black Bean & Corn Salad</p>
+<p class=text-white>$40</p>
+</div>
+</div>
+<div class="card h-[300px] w-[250px] nd:w-[95%] lt:w-[95%] ld:w-[95%] ls:w-[95%]">
+<div class="card-img h-[80%]">
+<img src=assets/sld/m-sld-6.jpg alt="Papaya Mango Salad" class="h-full w-full object-cover">
+</div>
+<div class="card-body h-[20%] flex justify-evenly items-center bg-black">
+<p class=text-white>Papaya Mango Salad</p>
+<p class=text-white>$15</p>
+</div>
+</div>
+</div>
+<div class="dessert grid-cols-1 grid-rows-1 gap-3 place-items-center mt-20 nd:grid-cols-2 nd:grid-rows-3 st:grid-cols-2 st:grid-rows-3 lt:grid-cols-3 lt:grid-row-3 ld:grid-cols-3 ld:grid-row-3 ls:grid-cols-3 ls:grid-row-3 hidden">
+<div class="card h-[300px] w-[250px] nd:w-[95%] lt:w-[95%] ld:w-[95%] ls:w-[95%]">
+<div class="card-img h-[80%]">
+<img src=assets/des/m-d-1.jpg alt="Biscoff Pudding Jars" class="h-full w-full object-cover">
+</div>
+<div class="card-body h-[20%] flex justify-evenly items-center bg-black">
+<p class=text-white>Biscoff Pudding Jars</p>
+<p class=text-white>$40</p>
+</div>
+</div>
+<div class="card h-[300px] w-[250px] nd:w-[95%] lt:w-[95%] ld:w-[95%] ls:w-[95%]">
+<div class="card-img h-[80%]">
+<img src=assets/des/m-d-2.jpg alt="Fruit Custard Icebox Cake" class="h-full w-full object-cover">
+</div>
+<div class="card-body h-[20%] flex justify-evenly items-center bg-black">
+<p class=text-white>Fruit Custard Icebox Cake</p>
+<p class=text-white>$40</p>
+</div>
+</div>
+<div class="card h-[300px] w-[250px] nd:w-[95%] lt:w-[95%] ld:w-[95%] ls:w-[95%]">
+<div class="card-img h-[80%]">
+<img src=assets/des/m-d-3.jpg alt="Gajar Halwa" class="h-full w-full object-cover">
+</div>
+<div class="card-body h-[20%] flex justify-evenly items-center bg-black">
+<p class=text-white>Gajar Halwa</p>
+<p class=text-white>$40</p>
+</div>
+</div>
+<div class="card h-[300px] w-[250px] nd:w-[95%] lt:w-[95%] ld:w-[95%] ls:w-[95%]">
+<div class="card-img h-[80%]">
+<img src=assets/des/m-d-4.jpg alt="Eggless Date Walnut Cake" class="h-full w-full object-cover">
+</div>
+<div class="card-body h-[20%] flex justify-evenly items-center bg-black">
+<p class=text-white>Eggless Date Walnut Cake</p>
+<p class=text-white>$40</p>
+</div>
+</div>
+<div class="card h-[300px] w-[250px] nd:w-[95%] lt:w-[95%] ld:w-[95%] ls:w-[95%]">
+<div class="card-img h-[80%]">
+<img src=assets/des/m-d-5.jpg alt="Biscoff Cheesecake" class="h-full w-full object-cover">
+</div>
+<div class="card-body h-[20%] flex justify-evenly items-center bg-black">
+<p class=text-white>Biscoff Cheesecake</p>
+<p class=text-white>$40</p>
+</div>
+</div>
+<div class="card h-[300px] w-[250px] nd:w-[95%] lt:w-[95%] ld:w-[95%] ls:w-[95%]">
+<div class="card-img h-[80%]">
+<img src=assets/des/m-d-6.jpg alt="Rose Kulfi" class="h-full w-full object-cover">
+</div>
+<div class="card-body h-[20%] flex justify-evenly items-center bg-black">
+<p class=text-white>Rose Kulfi</p>
+<p class=text-white>$15</p>
+</div>
+</div>
+</div>
+<div class="beve grid-cols-1 grid-rows-1 gap-3 place-items-center mt-20 nd:grid-cols-2 nd:grid-rows-3 st:grid-cols-2 st:grid-rows-3 lt:grid-cols-3 lt:grid-row-3 ld:grid-cols-3 ld:grid-row-3 ls:grid-cols-3 ls:grid-row-3 hidden">
+<div class="card h-[300px] w-[250px] nd:w-[95%] lt:w-[95%] ld:w-[95%] ls:w-[95%]">
+<div class="card-img h-[80%]">
+<img src=assets/bev/m-b-1.jpg alt="Mango Lassi" class="h-full w-full object-cover">
+</div>
+<div class="card-body h-[20%] flex justify-evenly items-center bg-black">
+<p class=text-white>Mango Lassi</p>
+<p class=text-white>$40</p>
+</div>
+</div>
+<div class="card h-[300px] w-[250px] nd:w-[95%] lt:w-[95%] ld:w-[95%] ls:w-[95%]">
+<div class="card-img h-[80%]">
+<img src=assets/bev/m-b-2.jpg alt="" class="h-full w-full object-cover">
+</div>
+<div class="card-body h-[20%] flex justify-evenly items-center bg-black">
+<p class=text-white>Moong Dal Mini Samosa</p>
+<p class=text-white>$40</p>
+</div>
+</div>
+<div class="card h-[300px] w-[250px] nd:w-[95%] lt:w-[95%] ld:w-[95%] ls:w-[95%]">
+<div class="card-img h-[80%]">
+<img src=assets/bev/m-b-3.webp alt="Dry Fruits Milkshake" class="h-full w-full object-cover">
+</div>
+<div class="card-body h-[20%] flex justify-evenly items-center bg-black">
+<p class=text-white>Dry Fruits Milkshake</p>
+<p class=text-white>$40</p>
+</div>
+</div>
+<div class="card h-[300px] w-[250px] nd:w-[95%] lt:w-[95%] ld:w-[95%] ls:w-[95%]">
+<div class="card-img h-[80%]">
+<img src=assets/bev/m-b-4.webp alt="Virgin Mojito" class="h-full w-full object-cover">
+</div>
+<div class="card-body h-[20%] flex justify-evenly items-center bg-black">
+<p class=text-white>Virgin Mojito</p>
+<p class=text-white>$40</p>
+</div>
+</div>
+<div class="card h-[300px] w-[250px] nd:w-[95%] lt:w-[95%] ld:w-[95%] ls:w-[95%]">
+<div class="card-img h-[80%]">
+<img src=assets/bev/m-b-5.jpg alt=Horchata class="h-full w-full object-cover">
+</div>
+<div class="card-body h-[20%] flex justify-evenly items-center bg-black">
+<p class=text-white>Horchata</p>
+<p class=text-white>$40</p>
+</div>
+</div>
+<div class="card h-[300px] w-[250px] nd:w-[95%] lt:w-[95%] ld:w-[95%] ls:w-[95%]">
+<div class="card-img h-[80%]">
+<img src=assets/bev/m-b-6.jpg alt="Oreo Milkshake" class="h-full w-full object-cover">
+</div>
+<div class="card-body h-[20%] flex justify-evenly items-center bg-black">
+<p class=text-white>Oreo Milkshake</p>
+<p class=text-white>$15</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer class="w-full h-fit bg-white border-t-2 border-t-blue">
+<div class="footer-main-area max-w-[1280px] mx-auto h-full flex flex-col st:flex-row lt:flex-row ld:flex-row ls:flex-row ls:h-80 gap-5 p-5 nd:grid nd:grid-rows-2 nd:grid-col-2">
+<div class="nav-link h-full w-full ls:w-[30%] nd:col-span-2">
+<a href=index.html class="flex justify-center"><img src=assets/logo/logo.webp alt=LOGO></a>
+<div class="links flex flex-col w-full text-center gap-5 mt-5">
+<a href=index.html class="font-head text-grey hover:text-black">HOME</a>
+<a href=contact.html class="font-head text-grey hover:text-black">CONTACT</a>
+<a href=index.html#res class="font-head text-grey hover:text-black">RESERVATION</a>
+</div>
+</div>
+<div class="social h-full w-full ls:w-[30%] nd:col-span-1">
+<h1 class="font-head text-center text-[7vw] st:text-[3.5vw] lt:text-[3.3vw] ld:text-[3.3vw] ls:text-3xl nd:text-[5vw]">
+FOLLOW US
+</h1>
+<div class="links w-full gap-5 mt-5 px-5">
+<div class="fb flex justify-center items-center gap-5">
+<i class=ri-facebook-line></i>
+<a href=# class="font-head text-black">Facebook</a>
+</div>
+<div class="insta flex justify-center items-center gap-5">
+<i class=ri-instagram-line></i>
+<a href=# class="font-head text-black">Instagram</a>
+</div>
+<div class="x flex justify-center items-center gap-5">
+<i class=ri-twitter-x-line></i>
+<a href=# class="font-head text-black">X</a>
+</div>
+</div>
+</div>
+<div class="info h-full w-full ls:w-[30%] st:border-l-2 st:border-blue lt:border-l-2 lt:border-blue ld:border-l-2 ld:border-blue ls:border-l-2 ls:border-blue nd:col-span-1">
+<h1 class="font-head text-center text-[7vw] nd:text-[5vw] st:text-[3.5vw] lt:text-[3.3vw] ld:text-[3.3vw] ls:text-3xl">
+INFORMATION
+</h1>
+<div class="add pt-5 px-5">
+<h1 class=font-robo>ADDRESS</h1>
+<address class="font-robo font-light">
+69 Road , opp. Ceramic Glaze
+</address>
+</div>
+<div class="em pt-5 px-5">
+<h1 class=font-robo>EMAIL</h1>
+<p class="font-robo font-light">bitelaugh@laugh.com</p>
+</div>
+<div class="add pt-5 px-5">
+<h1 class=font-robo>TELEPHONE</h1>
+<p class="font-robo font-light">696969XX,</p>
+<p class="font-robo font-light">696XX969.</p>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin=anonymous referrerpolicy=no-referrer></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw==" crossorigin=anonymous referrerpolicy=no-referrer></script>
+<script type=module src=java.js></script>
+</body>
 </html>
