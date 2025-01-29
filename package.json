@@ -1,0 +1,13 @@
+{
+  "name": "bl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "live": "vite",
+    "bld": "vite build "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
